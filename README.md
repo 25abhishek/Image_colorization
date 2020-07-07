@@ -20,7 +20,7 @@ Moreover,we optimized the code so that it can be trained using transfer learning
     2)mid-level features network
     3)global features network
     4)colorization network
-
+![alt text](https://github.com/25abhishek/Image_colorization/blob/master/Images/model.png)
 The components are all tightly coupled and trained in an end-to-end fashion.
 The output of this model is the chrominance of the image which is fused with the luminance to form the output image.
 
