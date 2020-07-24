@@ -2,7 +2,7 @@
 Convolutional Neural Network that converts black and white image to coloured image
 
 ## OVERVIEW
-This code is an implementation of the mentioned [research paper](http://iizuka.cs.tsukuba.ac.jp/projects/colorization/data/colorization_sig2016.pdf) in tensorflow.
+This code is an implementation of the mentioned [research paper](http://iizuka.cs.tsukuba.ac.jp/projects/colorization/data/colorization_sig2016.pdf) in pytorch.
 This paper presents a novel technique to automatically colorize grayscale images that combines both global priors and local image features.
 Based on Convolutional Neural Networks,this deep network features a fusion layer that allows the model to elegantly merge local information dependent on small image patches with global priors computed using the entire image.
 The network learns both local features and global features jointly in a single framework which can then be used on images of any resolution.
@@ -10,7 +10,7 @@ The network learns both local features and global features jointly in a single f
 Moreover,we optimized the code so that it can be trained using transfer learning.
 
 ## REQUIREMENTS
-    -Tensorflow v1
+    -Pytorch
     -OS
     -opencv
     -numpy
